@@ -173,8 +173,8 @@ function StudInfo() {
            </div>
 
                </form>
-               <div>
-               <Button className='btn'  onClick={setAtLocalStore}>Submit</Button>
+               <div style={{hight:"70px"}} >
+               <Button variant='outline-secondary'  onClick={setAtLocalStore}>Submit</Button>
                <Button variant='outline-secondary'   onClick={getAtLocalStore}>Fetch Data</Button>
 
                </div>
