@@ -61,7 +61,7 @@ h1{
     box-sizing: margin-box;
    }
    .btn{
-    background-color: red;
+    background-color: "white";
     color: black;
     border: 2px solid black; /* Green */
     margin: 10px;
