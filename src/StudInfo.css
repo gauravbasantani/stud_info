@@ -1,0 +1,72 @@
+.btn{
+   
+    color: black;
+    border: 2px solid black; /* Green */
+    margin: 0px 20px;
+    text-align: center;
+    display: inline-block;
+   }
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color:ghostwhite;
+    margin-top: 20px;
+}
+.label{
+    display: block;
+    padding: 23px 8px;
+    word-spacing: 0.25em;
+    box-sizing: margin-box;
+}
+.space{
+    display:block;
+    word-spacing: 1em;
+    padding: 23px 9px;
+}
+
+@media screen and (min-width: 250px){
+    .label{
+        display:block;
+        padding: 18px 3px;
+        word-spacing: 0.20em;
+        box-sizing: margin-box;
+        /* width: 5px; */
+
+    }
+   .students{ display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color:ghostwhite;
+    margin-top: 20px;
+
+
+   }
+    .label {
+    display:block;
+    padding: 18px 3px;
+    word-spacing: 0.20em;
+    box-sizing: margin-box;
+   }
+   .btn{
+    background-color: red;
+    color: black;
+    border: 2px solid black; /* Green */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+   }
+} 
